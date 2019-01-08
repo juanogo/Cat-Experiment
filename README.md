@@ -17,7 +17,8 @@ To reproduce this experiment in silicon, I used for a cat’s brain representati
 Once the model was trained, I used the method described in “Visualizing and Understanding Convolutional Networks” (https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) to find the most responsive neurons in the first layer of the convolutional network (primary cortex) and their associated unique portion in the visual field (an image). Then, I visualized the patterns that when shown up in this portion of the image got to excite the corresponding neuron the most. 
 
 ![result](https://user-images.githubusercontent.com/38761819/50806553-3515f700-12c5-11e9-8a17-84278255f52a.png)
-*In this Figure the three most responsive neurons (their associated part within the visual field - colum field) is shown. Also, in the columns ...patterns... the corresponding activation pattern for that part of the field are shown (eight samples for neuron or visual field portion).
+
+*In this Figure the three most responsive neurons (their associated part within the visual field - colum field) is shown. Also, in the columns ...patterns... the corresponding activation pattern for that part of the field are shown (eight samples for neuron or visual field portion).*
 
 ## The code is simple:
 
