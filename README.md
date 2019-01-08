@@ -14,6 +14,8 @@ https://www.youtube.com/watch?v=RSNofraG8ZE
 
 To reproduce this experiment in silicon, I used for a cat’s brain representation the convolutional neural network model trained on a data set of images to tell cats from dogs (using this image data https://www.kaggle.com/c/dogs-vs-cats). 
 
+![result](https://user-images.githubusercontent.com/38761819/50806553-3515f700-12c5-11e9-8a17-84278255f52a.png)
+
 Once the model was trained, I used the method described in “Visualizing and Understanding Convolutional Networks” (https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) to find the most responsive neurons in the first layer of the convolutional network (primary cortex) and their associated unique portion in the visual field (an image). Then, I visualized the patterns that when shown up in this portion of the image got to excite the corresponding neuron the most. 
 
 ![result](https://user-images.githubusercontent.com/38761819/50806553-3515f700-12c5-11e9-8a17-84278255f52a.png)
