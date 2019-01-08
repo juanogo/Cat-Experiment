@@ -1,4 +1,5 @@
 # Cat-Experiment
+![img_ep_hubel-weisel-toys2](https://user-images.githubusercontent.com/38761819/50806715-cbe2b380-12c5-11e9-8b82-42c338770327.jpg)
 
 For my students in the last course of Machine Learning, I reproduced the results of Nobel Prize winning # “Hubel and Wiesel Cat Experiment” 
 
