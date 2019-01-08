@@ -13,9 +13,13 @@ Once the model was trained, I used the method described in “Visualizing and Un
 
 
 The code is simple:
+
 DataPreprocessing_Cats_Dogs.py: Preprocesses the images turning them into gray scale as well as re-scaling them down to 50x50 pixels.
+
 Training_Cats_Dogs.py: Uses a convolutional neural network (with Keras) to tell dogs from cats and save the final model for later usage. 
+
 Evaluating_Cats_Dogs.py: If the trained model wants to be tried, this file load the saved model above and do the job. I also provided my trained model in case training a new model wants to be avoided.
+
 VisualCortexCatExperiment.py: this files finds the most excitable neurons in the first layer, their portion of the visual field and the excitatory patterns. It also performs a simple visualization of all this. 
 
 PS. Not much comment is given (just enough) into the code so the students can do a better job. 
