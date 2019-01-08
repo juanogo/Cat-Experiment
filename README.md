@@ -3,10 +3,14 @@
 
 For my students in the last course of Machine Learning, I reproduced the results of Nobel Prize winning “Hubel and Wiesel Cat Experiment” 
 
+## The experiment: 
+
 In short, they implanted electrodes in the brain of an anesthetized cat to prove that some neurons in the primary visual cortex process information exclusively form specific patches of the visual field. For instance, one single neuron may be devoted to process information within a single small area at the bottom-left of the visual field and thus, it is only responsive to specific light patterns within such small area. 
 
 A video of the famous experiment that significantly boosted our understanding of visual perception in the 70s, can be watched here: 
 https://www.youtube.com/watch?v=RSNofraG8ZE
+
+## Reproduction using Machine Learning:
 
 To reproduce this experiment in silicon, I used for a cat’s brain representation the convolutional neural network model trained on a data set of images to tell cats from dogs (using this image data https://www.kaggle.com/c/dogs-vs-cats). 
 
