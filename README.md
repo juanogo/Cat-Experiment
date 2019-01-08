@@ -16,7 +16,7 @@ To reproduce this experiment in silicon, I used for a cat’s brain representati
 
 ![result](https://user-images.githubusercontent.com/38761819/50807468-82479800-12c8-11e9-8344-2ba76d3ea454.png)
 
-###### *This figure shows the responses to 25 test images for the trained convolutional neural network (99% accurracy) that mimics a cat brain in this excercise*
+###### *This figure shows the responses for 25 test images of the trained convolutional neural network (99% accurracy) that mimics a cat brain in this excercise*
 
 Once the model was trained, I used the method described in “Visualizing and Understanding Convolutional Networks” (https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) to find the most responsive neurons in the first layer of the convolutional network (primary cortex) and their associated unique portion in the visual field (an image). Then, I visualized the patterns that when shown up in this portion of the image got to excite the corresponding neuron the most. 
 
