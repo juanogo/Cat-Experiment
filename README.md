@@ -36,6 +36,6 @@ Once the model was trained, I used the method described in “Visualizing and Un
     If the trained model wants to be tried, this file load the saved model above and do the job. I also provided my trained model in case training a new model wants to be avoided.
 
 ### VisualCortexCatExperiment.py: 
-    This files finds the most excitable neurons in the first layer, their portion of the visual field and the excitatory patterns. It also performs a simple visualization of all this. 
+    This file finds the most excitable neurons in the first layer, their portion of the visual field and the excitatory patterns. It also performs a simple visualization of all this. 
 
 PS. Not much comment is given (just enough) into the code so the students can do a better job. 
