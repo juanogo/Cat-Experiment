@@ -11,17 +11,20 @@ To reproduce this experiment in silicon, I used for a cat’s brain representati
 
 Once the model was trained, I used the method described in “Visualizing and Understanding Convolutional Networks” (https://cs.nyu.edu/~fergus/papers/zeilerECCV2014.pdf) to find the most responsive neurons in the first layer of the convolutional network (primary cortex) and their associated unique portion in the visual field (an image). Then, I visualized the patterns that when shown up in this portion of the image got to excite the corresponding neuron the most. 
 
+![result](https://user-images.githubusercontent.com/38761819/50806553-3515f700-12c5-11e9-8a17-84278255f52a.png)
 
+## The code is simple:
 
+### DataPreprocessing_Cats_Dogs.py: 
+    Preprocesses the images turning them into gray scale as well as re-scaling them down to 50x50 pixels.
 
-### The code is simple:
+### Training_Cats_Dogs.py: 
+    Uses a convolutional neural network (with Keras) to tell dogs from cats and save the final model for later usage. 
 
-DataPreprocessing_Cats_Dogs.py: Preprocesses the images turning them into gray scale as well as re-scaling them down to 50x50 pixels.
+### Evaluating_Cats_Dogs.py: 
+    If the trained model wants to be tried, this file load the saved model above and do the job. I also provided my trained model in case       training a new model wants to be avoided.
 
-Training_Cats_Dogs.py: Uses a convolutional neural network (with Keras) to tell dogs from cats and save the final model for later usage. 
-
-Evaluating_Cats_Dogs.py: If the trained model wants to be tried, this file load the saved model above and do the job. I also provided my trained model in case training a new model wants to be avoided.
-
-VisualCortexCatExperiment.py: this files finds the most excitable neurons in the first layer, their portion of the visual field and the excitatory patterns. It also performs a simple visualization of all this. 
+### VisualCortexCatExperiment.py: 
+    This files finds the most excitable neurons in the first layer, their portion of the visual field and the excitatory patterns. It also     performs a simple visualization of all this. 
 
 PS. Not much comment is given (just enough) into the code so the students can do a better job. 
