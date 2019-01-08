@@ -18,7 +18,7 @@ Once the model was trained, I used the method described in “Visualizing and Un
 
 ![result](https://user-images.githubusercontent.com/38761819/50806553-3515f700-12c5-11e9-8a17-84278255f52a.png)
 
-*In this Figure the three most responsive neurons (their associated part within the visual field - colum field) is shown. Also, in the columns ...patterns... the corresponding activation pattern for that part of the field are shown (eight samples for neuron or visual field portion).*
+*In this Figure the four most responsive neurons (their associated spot within the visual field - colum field) are shown. Also, in the following columns ...patterns... (from 2 to 9) the corresponding activation pattern for that spot of the field are shown (eight samples for neuron or visual field spot).*
 
 ## The code is simple:
 
